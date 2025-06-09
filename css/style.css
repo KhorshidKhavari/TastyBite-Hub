@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #fff9f5;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background-color: #d84f2a;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+}
+header h1 {
+    font-size: 2.2em;
+    margin-bottom: 5px;
+}
+header p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+header a {
+    color: #fff;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+header a:hover {
+    text-decoration: underline;
+}
+.intro {
+   background-color: #fff6ef;
+    text-align: center;
+    padding: 40px 20px;
+}
+.intro h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+.intro p {
+    margin-bottom: 20px;
+}
+.intro button {
+    background-color: #d84f2a;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.intro button:hover {
+    background-color: #fff6ef;
+}
+.cards1 {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff0e5;
+}
+.cards1 h2 {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+.cards {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff6ef;
+}
+.cards h2 {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rbga(0, 0, 0, 0.1);
+    width: 250px;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.events {
+    background-color: #fff0e5;
+    padding: 30px 20px;
+    text-align: center;
+}
+.events h2 {
+    margin-bottom: 15px;
+}
+.events ul {
+    list-style-type: none;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.events li {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff6ef;
+}
+.contact button {
+    background-color: #d84f2a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin: 15px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact button:hover {
+    background-color: #aa391f;
+}
+footer {
+    background-color: #d84f2a;
+    color: #fff;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 0.9em;
+}
